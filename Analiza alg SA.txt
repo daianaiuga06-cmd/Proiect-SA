@@ -1,0 +1,309 @@
+Rezultate sortări algoritmi
+Tip listă: RANDOM
+
+Număr de elemente: 50
+BubbleSort: 0.000000 sec
+CountingSort: 0.000000 sec
+InsertionSort: 0.000000 sec
+MergeSort: 0.000000 sec
+QuickSort: 0.000000 sec
+RadixSort: 0.000000 sec
+SelectionSort: 0.000000 sec
+ShakerSort: 0.000000 sec
+
+Observație: La dimensiuni foarte mici, diferențele între algoritmi nu se observă practic.
+
+Număr de elemente: 100
+BubbleSort: 0.000000 sec
+CountingSort: 0.000000 sec
+InsertionSort: 0.000000 sec
+MergeSort: 0.000000 sec
+QuickSort: 0.000000 sec
+RadixSort: 0.000000 sec
+SelectionSort: 0.000000 sec
+ShakerSort: 0.000000 sec
+
+Număr de elemente: 1000
+BubbleSort: 0.000000 sec
+CountingSort: 0.000000 sec
+InsertionSort: 0.000000 sec
+MergeSort: 0.000000 sec
+QuickSort: 0.000000 sec
+RadixSort: 0.000000 sec
+SelectionSort: 0.015000 sec
+ShakerSort: 0.005000 sec
+
+Observație: Algoritmii eficienți (Merge, Quick, Counting, Radix) încă sunt instant, algoritmii simpli încep să consume timp.
+
+Număr de elemente: 10000
+BubbleSort: 0.237000 sec
+CountingSort: 0.000000 sec
+InsertionSort: 0.093000 sec
+MergeSort: 0.000000 sec
+QuickSort: 0.006000 sec
+RadixSort: 0.000000 sec
+SelectionSort: 0.146000 sec
+ShakerSort: 0.187000 sec
+
+Număr de elemente: 100000
+BubbleSort: 16.951000 sec
+CountingSort: 0.000000 sec
+InsertionSort: 3.263000 sec
+MergeSort: 0.023000 sec
+QuickSort: 0.009000 sec
+RadixSort: 0.009000 sec
+SelectionSort: 6.466000 sec
+ShakerSort: 15.709000 sec
+
+Număr de elemente: 1000000
+BubbleSort: depășit timeout 20.000000 sec
+CountingSort: 0.000000 sec
+InsertionSort: depășit timeout 20.000000 sec
+MergeSort: 0.184000 sec
+QuickSort: 0.136000 sec
+RadixSort: 0.056000 sec
+SelectionSort: depășit timeout 20.000000 sec
+ShakerSort: depășit timeout 20.000000 sec
+
+Număr de elemente: 10000000
+BubbleSort: depășit timeout 20.000000 sec
+CountingSort: 0.046000 sec
+InsertionSort: depășit timeout 20.000000 sec
+MergeSort: 2.004000 sec
+QuickSort: 2.863000 sec
+RadixSort: 0.486000 sec
+SelectionSort: depășit timeout 20.000000 sec
+ShakerSort: depășit timeout 20.000000 sec
+
+Concluzie:
+Algoritmii O(n²) (Bubble, Selection, Insertion, Shaker) sunt buni doar pentru liste mici.
+Algoritmii O(n log n) (MergeSort, QuickSort) sunt ideali pentru liste mari.
+Algoritmii liniari (CountingSort, RadixSort) sunt cei mai rapizi pentru valori numerice cu gamă limitată.
+
+Tip listă: SORTATĂ
+
+Număr de elemente: 1000
+BubbleSort: 0.001 sec
+InsertionSort: 0.000 sec
+SelectionSort: 0.000 sec
+ShakerSort: 0.000 sec
+CountingSort: 0.000 sec
+MergeSort: 0.000 sec
+QuickSort: 0.000 sec
+RadixSort: 0.000 sec
+
+Număr de elemente: 10000
+BubbleSort: 0.172 sec
+InsertionSort: 0.000 sec
+SelectionSort: 0.114 sec
+ShakerSort: 0.000 sec
+CountingSort: 0.000 sec
+MergeSort: 0.000 sec
+QuickSort: 0.359 sec
+RadixSort: 0.000 sec
+
+Număr de elemente: 100000
+BubbleSort: depășit timeout 20.000 sec
+InsertionSort: 0.000 sec
+SelectionSort: depășit timeout 20.000 sec
+ShakerSort: 0.000 sec
+CountingSort: 0.000 sec
+MergeSort: 0.008 sec
+QuickSort: 0.008 sec
+RadixSort: 0.003 sec
+
+Număr de elemente: 1000000
+BubbleSort: depășit timeout 20.000 sec
+InsertionSort: 0.000 sec
+SelectionSort: depășit timeout 20.000 sec
+ShakerSort: 0.005 sec
+CountingSort: 0.000 sec
+MergeSort: 0.095 sec
+QuickSort: 0.103 sec
+RadixSort: 0.053 sec
+
+Număr de elemente: 10000000
+BubbleSort: depășit timeout 20.000 sec
+InsertionSort: 0.019 sec
+SelectionSort: depășit timeout 20.000 sec
+ShakerSort: 0.072 sec
+CountingSort: 0.069 sec
+MergeSort: 0.923 sec
+QuickSort: 4.323 sec
+RadixSort: 0.531 sec
+
+Concluzie:
+Listele sortate evidențiază avantajul InsertionSort. Algoritmii O(n²) devin inutilizabili pentru n > 100.000. Sortările eficiente (Merge, Quick, Radix) gestionează rapid și liste mari.
+
+Tip listă: INVERSĂ
+
+Număr de elemente: 1000
+BubbleSort: 0.014 sec
+InsertionSort: 0.005 sec
+SelectionSort: 0.016 sec
+ShakerSort: 0.015 sec
+CountingSort: 0.000 sec
+MergeSort: 0.000 sec
+QuickSort: 0.000 sec
+RadixSort: 0.000 sec
+
+Număr de elemente: 10000
+BubbleSort: 0.928 sec
+InsertionSort: 0.468 sec
+SelectionSort: 0.380 sec
+ShakerSort: 0.490 sec
+CountingSort: 0.000 sec
+MergeSort: 0.000 sec
+QuickSort: 0.000 sec
+RadixSort: 0.000 sec
+
+Număr de elemente: 100000
+BubbleSort: depășit timeout 20.000 sec
+InsertionSort: depășit timeout 20.000 sec
+SelectionSort: depășit timeout 20.000 sec
+ShakerSort: depășit timeout 20.000 sec
+CountingSort: 0.000 sec
+MergeSort: 0.002 sec
+QuickSort: 0.019 sec
+RadixSort: 0.007 sec
+
+Număr de elemente: 1000000
+BubbleSort: depășit timeout 20.000 sec
+InsertionSort: depășit timeout 20.000 sec
+SelectionSort: depășit timeout 20.000 sec
+ShakerSort: depășit timeout 20.000 sec
+CountingSort: 0.000 sec
+MergeSort: 0.106 sec
+QuickSort: 0.176 sec
+RadixSort: 0.065 sec
+
+Număr de elemente: 10000000
+BubbleSort: depășit timeout 20.000 sec
+InsertionSort: depășit timeout 20.000 sec
+SelectionSort: depășit timeout 20.000 sec
+ShakerSort: depășit timeout 20.000 sec
+CountingSort: 0.066 sec
+MergeSort: 0.900 sec
+QuickSort: 10.436 sec
+RadixSort: 0.632 sec
+
+Concluzie:
+Listele invers sortate favorizează algoritmii eficienți O(n log n). Algoritmii O(n²) sunt inutilizabili pentru n mare.
+
+Tip listă: APROAPE ORDONATĂ
+
+Număr de elemente: 1000
+BubbleSort: 0.007 sec
+InsertionSort: 0.000 sec
+SelectionSort: 0.016 sec
+ShakerSort: 0.002 sec
+CountingSort: 0.000 sec
+MergeSort: 0.000 sec
+QuickSort: 0.000 sec
+RadixSort: 0.000 sec
+
+Număr de elemente: 10000
+BubbleSort: 0.860 sec
+InsertionSort: 0.048 sec
+SelectionSort: 0.437 sec
+ShakerSort: 0.053 sec
+CountingSort: 0.000 sec
+MergeSort: 0.000 sec
+QuickSort: 0.000 sec
+RadixSort: 0.000 sec
+
+Număr de elemente: 100000
+BubbleSort: depășit timeout 20.000 sec
+InsertionSort: 0.699 sec
+SelectionSort: depășit timeout 20.000 sec
+ShakerSort: 3.527 sec
+CountingSort: 0.000 sec
+MergeSort: 0.020 sec
+QuickSort: 0.008 sec
+RadixSort: 0.000 sec
+
+Număr de elemente: 1000000
+BubbleSort: depășit timeout 20.000 sec
+InsertionSort: 2.102 sec
+SelectionSort: depășit timeout 20.000 sec
+ShakerSort: depășit timeout 20.000 sec
+CountingSort: 0.000 sec
+MergeSort: 0.093 sec
+QuickSort: 0.091 sec
+RadixSort: 0.059 sec
+
+Număr de elemente: 10000000
+BubbleSort: depășit timeout 20.000 sec
+InsertionSort: 2.192 sec
+SelectionSort: depășit timeout 20.000 sec
+ShakerSort: depășit timeout 20.000 sec
+CountingSort: 0.060 sec
+MergeSort: 0.898 sec
+QuickSort: 4.083 sec
+RadixSort: 0.545 sec
+
+Concluzie:
+Pentru liste aproape sortate, InsertionSort poate fi foarte eficient. Pentru n mare, sortările eficiente rămân singura opțiune scalabilă.
+
+Tip listă: FLAT (valori repetitive)
+
+Număr de elemente: 1000
+BubbleSort: 0.006 sec
+InsertionSort: 0.014 sec
+SelectionSort: 0.003 sec
+ShakerSort: 0.014 sec
+CountingSort: 0.000 sec
+MergeSort: 0.000 sec
+QuickSort: 0.000 sec
+RadixSort: 0.000 sec
+
+Număr de elemente: 10000
+BubbleSort: 1.280 sec
+InsertionSort: 0.230 sec
+SelectionSort: 0.405 sec
+ShakerSort: 0.415 sec
+CountingSort: 0.000 sec
+MergeSort: 0.000 sec
+QuickSort: 0.016 sec
+RadixSort: 0.000 sec
+
+Număr de elemente: 100000
+BubbleSort: depășit timeout 20.000 sec
+InsertionSort: 16.115 sec
+SelectionSort: depășit timeout 20.000 sec
+ShakerSort: depășit timeout 20.000 sec
+CountingSort: 0.000 sec
+MergeSort: 0.000 sec
+QuickSort: 1.098 sec
+RadixSort: 0.000 sec
+
+Număr de elemente: 1000000
+BubbleSort: depășit timeout 20.000 sec
+InsertionSort: depășit timeout 20.000 sec
+SelectionSort: depășit timeout 20.000 sec
+ShakerSort: depășit timeout 20.000 sec
+CountingSort: 0.002 sec
+MergeSort: 0.113 sec
+
+Număr de elemente: 10000000
+BubbleSort: depășit timeout 20.000 sec
+InsertionSort: depășit timeout 20.000 sec
+SelectionSort: depășit timeout 20.000 sec
+ShakerSort: depășit timeout 20.000 sec
+CountingSort: 0.037 sec
+MergeSort: 1.224 sec
+
+Concluzie:
+Listele cu valori repetitive favorizează sortările care nu compară elemente individual: CountingSort și RadixSort. Algoritmii comparativi O(n²) devin complet ineficienți la n mare. MergeSort și QuickSort rămân stabile și rapide.
+
+Concluzii generale
+Algoritmi O(n²) (Bubble, Selection, Shaker, Insertion) sunt buni doar pentru n mic (1000–10.000). Performanța scade dramatic la n mare.
+InsertionSort are avantaj pe liste aproape sortate sau complet sortate → aproape O(n).
+MergeSort, QuickSort (pivot aleator), RadixSort, CountingSort: performanță bună indiferent de ordine sau dimensiune → singura opțiune pentru n > 100.000.
+
+Liste speciale:
+
+Sortate: InsertionSort excelent.
+Invers sortate: InsertionSort foarte lent → preferat Merge/Quick/Radix.
+Aproape sortate: InsertionSort rapid pentru n mediu.
+Flat (valori repetitive): CountingSort și RadixSort extrem de rapide.
